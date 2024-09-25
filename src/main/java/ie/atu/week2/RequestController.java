@@ -18,4 +18,5 @@ public class RequestController {
     public String details(@RequestParam () String name, @RequestParam() int age){
         return  name + " " + age;
     }
+
 }
